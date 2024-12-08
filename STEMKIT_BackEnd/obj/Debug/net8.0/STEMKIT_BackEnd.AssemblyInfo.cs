@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("1a8a1ab2-878e-437a-afe4-e6560c916fee")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("STEMKIT_BackEnd")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c8873237b49d7e50c5d470c2d99f21c3053184c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e49b8e759af282f033b38e8070f843f358e011ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("STEMKIT_BackEnd")]
 [assembly: System.Reflection.AssemblyTitleAttribute("STEMKIT_BackEnd")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
