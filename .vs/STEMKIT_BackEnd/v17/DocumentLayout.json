@@ -1,14 +1,190 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\",
+  "WorkspaceRootPath": "D:\\FPT\\NEW_SWP391\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\git storage\\project\\swp391\\stemkit_backend\\bussinesslogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|d:\\fpt\\new_swp391\\dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|d:\\git storage\\project\\swp391\\stemkit_backend\\dataaccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|d:\\fpt\\new_swp391\\dataaccess\\unitofwork\\unitofwork .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\unitofwork\\unitofwork .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|d:\\fpt\\new_swp391\\dataaccess\\unitofwork\\iunitofwork .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\unitofwork\\iunitofwork .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|d:\\fpt\\new_swp391\\dataaccess\\repositories\\interfaces\\irefreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\interfaces\\irefreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|d:\\fpt\\new_swp391\\dataaccess\\repositories\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|d:\\fpt\\new_swp391\\dataaccess\\repositories\\implementations\\refreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\implementations\\refreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|d:\\fpt\\new_swp391\\dataaccess\\repositories\\implementations\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\implementations\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|d:\\fpt\\new_swp391\\dataaccess\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|d:\\fpt\\new_swp391\\dataaccess\\entities\\userpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\entities\\userpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|d:\\fpt\\new_swp391\\dataaccess\\entities\\delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\entities\\delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|d:\\fpt\\new_swp391\\dataaccess\\entities\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\entities\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|d:\\fpt\\new_swp391\\dataaccess\\entities\\invoicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\entities\\invoicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|d:\\fpt\\new_swp391\\dataaccess\\entities\\lab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\entities\\lab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|d:\\fpt\\new_swp391\\dataaccess\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|d:\\fpt\\new_swp391\\dataaccess\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|d:\\fpt\\new_swp391\\dataaccess\\entities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\entities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|d:\\fpt\\new_swp391\\dataaccess\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|d:\\fpt\\new_swp391\\dataaccess\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|d:\\fpt\\new_swp391\\dataaccess\\entities\\refund.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\entities\\refund.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|d:\\fpt\\new_swp391\\dataaccess\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|d:\\fpt\\new_swp391\\dataaccess\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|d:\\fpt\\new_swp391\\dataaccess\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2698A8F7-EFF3-463A-BCB0-6A7BAF15BA3E}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\fpt\\new_swp391\\bussinesslogic\\utils\\implementation\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\utils\\implementation\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\fpt\\new_swp391\\bussinesslogic\\utils\\implementation\\datetimeprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\utils\\implementation\\datetimeprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\fpt\\new_swp391\\bussinesslogic\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\fpt\\new_swp391\\bussinesslogic\\services\\implementation\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\services\\implementation\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\fpt\\new_swp391\\bussinesslogic\\dtos\\product\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\dtos\\product\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\fpt\\new_swp391\\bussinesslogic\\dtos\\product\\readproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\dtos\\product\\readproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\fpt\\new_swp391\\bussinesslogic\\dtos\\product\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\dtos\\product\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\fpt\\new_swp391\\bussinesslogic\\dtos\\queryparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\dtos\\queryparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\fpt\\new_swp391\\bussinesslogic\\dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\fpt\\new_swp391\\bussinesslogic\\dtos\\auth\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\dtos\\auth\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\fpt\\new_swp391\\bussinesslogic\\dtos\\auth\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\dtos\\auth\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\fpt\\new_swp391\\bussinesslogic\\dtos\\auth\\refreshrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\dtos\\auth\\refreshrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\fpt\\new_swp391\\bussinesslogic\\dtos\\auth\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\dtos\\auth\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\fpt\\new_swp391\\bussinesslogic\\dtos\\auth\\externalauthdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\dtos\\auth\\externalauthdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\fpt\\new_swp391\\bussinesslogic\\dtos\\auth\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\dtos\\auth\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\fpt\\new_swp391\\bussinesslogic\\configurations\\databasesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\configurations\\databasesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\fpt\\new_swp391\\bussinesslogic\\auth\\helpers\\implementation\\googletokenvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\auth\\helpers\\implementation\\googletokenvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\fpt\\new_swp391\\bussinesslogic\\auth\\helpers\\implementation\\assignmissingpermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\auth\\helpers\\implementation\\assignmissingpermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\fpt\\new_swp391\\bussinesslogic\\auth\\helpers\\interfaces\\iassignmissingpermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\auth\\helpers\\interfaces\\iassignmissingpermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\fpt\\new_swp391\\bussinesslogic\\auth\\helpers\\interfaces\\igoogletokenvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\auth\\helpers\\interfaces\\igoogletokenvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\fpt\\new_swp391\\bussinesslogic\\auth\\services\\implementation\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\auth\\services\\implementation\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\fpt\\new_swp391\\bussinesslogic\\auth\\services\\implementation\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\auth\\services\\implementation\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\fpt\\new_swp391\\bussinesslogic\\auth\\services\\implementation\\refreshtokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\auth\\services\\implementation\\refreshtokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\fpt\\new_swp391\\bussinesslogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,404 +194,609 @@
       "DocumentGroups": [
         {
           "DockedWidth": 623,
-          "SelectedChildIndex": 62,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1377497384:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:15:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:16:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:17:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:14:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:13:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:12:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:11:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:10:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:9:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:8:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:7:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:6:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:5:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:4:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:3:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:7:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:16:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:17:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:11:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{588470cc-84f8-4a57-9ac4-86bca0625ff4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1928210406:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:350743133:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:20:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:27:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:23:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:5:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:29:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:8:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c93a910a-0fa6-4307-93a4-f2bd61ec7828}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRefreshTokenRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\DataAccess\\Repositories\\Interfaces\\IRefreshTokenRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repositories\\Interfaces\\IRefreshTokenRepository.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\DataAccess\\Repositories\\Interfaces\\IRefreshTokenRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repositories\\Interfaces\\IRefreshTokenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:25:42.561Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\BussinessLogic\\Class1.cs",
-              "RelativeDocumentMoniker": "BussinessLogic\\Class1.cs",
-              "ToolTip": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\BussinessLogic\\Class1.cs",
-              "RelativeToolTip": "BussinessLogic\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "IUnitOfWork .cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\DataAccess\\UnitOfWork\\IUnitOfWork .cs",
+              "RelativeDocumentMoniker": "DataAccess\\UnitOfWork\\IUnitOfWork .cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\DataAccess\\UnitOfWork\\IUnitOfWork .cs",
+              "RelativeToolTip": "DataAccess\\UnitOfWork\\IUnitOfWork .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T08:50:42.361Z",
+              "WhenOpened": "2024-12-10T11:15:39.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\DataAccess\\Class1.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Class1.cs",
-              "ToolTip": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\DataAccess\\Class1.cs",
-              "RelativeToolTip": "DataAccess\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "UnitOfWork .cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\DataAccess\\UnitOfWork\\UnitOfWork .cs",
+              "RelativeDocumentMoniker": "DataAccess\\UnitOfWork\\UnitOfWork .cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\DataAccess\\UnitOfWork\\UnitOfWork .cs",
+              "RelativeToolTip": "DataAccess\\UnitOfWork\\UnitOfWork .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T08:50:03.862Z"
+              "WhenOpened": "2024-12-10T11:15:51.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\DataAccess\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\AppDbContext.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\DataAccess\\AppDbContext.cs",
+              "RelativeToolTip": "DataAccess\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:15:36.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\DataAccess\\Repositories\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repositories\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\DataAccess\\Repositories\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repositories\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:25:41.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\UserRole.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\UserRole.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\UserRole.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:25:35.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserPermission.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\UserPermission.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\UserPermission.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\UserPermission.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\UserPermission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:25:34.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\Invoice.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\Invoice.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\Invoice.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\Invoice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:25:32.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InvoiceDetail.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\InvoiceDetail.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\InvoiceDetail.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\InvoiceDetail.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\InvoiceDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:25:31.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\DataAccess\\Repositories\\Implementations\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repositories\\Implementations\\GenericRepository.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\DataAccess\\Repositories\\Implementations\\GenericRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repositories\\Implementations\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:15:58.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RefreshTokenRepository.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\DataAccess\\Repositories\\Implementations\\RefreshTokenRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repositories\\Implementations\\RefreshTokenRepository.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\DataAccess\\Repositories\\Implementations\\RefreshTokenRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repositories\\Implementations\\RefreshTokenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:15:59.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Lab.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\Lab.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\Lab.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\Lab.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\Lab.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:25:30.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\Order.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\Order.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:25:30.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\OrderDetail.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\OrderDetail.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:25:29.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\Permission.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\Permission.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\Permission.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\Permission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:25:28.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\Product.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\Product.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:25:27.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delivery.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\Delivery.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\Delivery.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\Delivery.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\Delivery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:25:25.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\RefreshToken.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\RefreshToken.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:25:27.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Refund.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\Refund.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\Refund.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\Refund.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\Refund.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:25:26.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\Customer.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\Customer.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:25:24.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\CartItem.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\CartItem.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\CartItem.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:25:22.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\Cart.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\Cart.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\DataAccess\\Entities\\Cart.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:25:00.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ReadProductDto.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\DTOs\\Product\\ReadProductDto.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\DTOs\\Product\\ReadProductDto.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\DTOs\\Product\\ReadProductDto.cs",
+              "RelativeToolTip": "BussinessLogic\\DTOs\\Product\\ReadProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:06:43.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UpdateProductDto.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\DTOs\\Product\\UpdateProductDto.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\DTOs\\Product\\UpdateProductDto.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\DTOs\\Product\\UpdateProductDto.cs",
+              "RelativeToolTip": "BussinessLogic\\DTOs\\Product\\UpdateProductDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:06:55.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Services\\Implementation\\ProductService.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\Services\\Implementation\\ProductService.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Services\\Implementation\\ProductService.cs",
+              "RelativeToolTip": "BussinessLogic\\Services\\Implementation\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:08:01.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Services\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\Services\\Interfaces\\IProductService.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Services\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "BussinessLogic\\Services\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:10:30.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DateTimeProvider.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Utils\\Implementation\\DateTimeProvider.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\Utils\\Implementation\\DateTimeProvider.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Utils\\Implementation\\DateTimeProvider.cs",
+              "RelativeToolTip": "BussinessLogic\\Utils\\Implementation\\DateTimeProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:12:36.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PaginatedList.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Utils\\Implementation\\PaginatedList.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\Utils\\Implementation\\PaginatedList.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Utils\\Implementation\\PaginatedList.cs",
+              "RelativeToolTip": "BussinessLogic\\Utils\\Implementation\\PaginatedList.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBkAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:11:01.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\DTOs\\Product\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\DTOs\\Product\\CreateProductDto.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\DTOs\\Product\\CreateProductDto.cs",
+              "RelativeToolTip": "BussinessLogic\\DTOs\\Product\\CreateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:06:40.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "QueryParameters.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\DTOs\\QueryParameters.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\DTOs\\QueryParameters.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\DTOs\\QueryParameters.cs",
+              "RelativeToolTip": "BussinessLogic\\DTOs\\QueryParameters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:23:52.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\DTOs\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\DTOs\\ApiResponse.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\DTOs\\ApiResponse.cs",
+              "RelativeToolTip": "BussinessLogic\\DTOs\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:23:51.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserRegistrationDto.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\DTOs\\Auth\\UserRegistrationDto.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\DTOs\\Auth\\UserRegistrationDto.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\DTOs\\Auth\\UserRegistrationDto.cs",
+              "RelativeToolTip": "BussinessLogic\\DTOs\\Auth\\UserRegistrationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:23:44.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\DTOs\\Auth\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\DTOs\\Auth\\UserLoginDto.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\DTOs\\Auth\\UserLoginDto.cs",
+              "RelativeToolTip": "BussinessLogic\\DTOs\\Auth\\UserLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:23:43.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RefreshRequestDto.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\DTOs\\Auth\\RefreshRequestDto.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\DTOs\\Auth\\RefreshRequestDto.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\DTOs\\Auth\\RefreshRequestDto.cs",
+              "RelativeToolTip": "BussinessLogic\\DTOs\\Auth\\RefreshRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:23:30.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\DTOs\\Auth\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\DTOs\\Auth\\LoginResponseDto.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\DTOs\\Auth\\LoginResponseDto.cs",
+              "RelativeToolTip": "BussinessLogic\\DTOs\\Auth\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:23:29.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ExternalAuthDto.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\DTOs\\Auth\\ExternalAuthDto.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\DTOs\\Auth\\ExternalAuthDto.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\DTOs\\Auth\\ExternalAuthDto.cs",
+              "RelativeToolTip": "BussinessLogic\\DTOs\\Auth\\ExternalAuthDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:23:27.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\DTOs\\Auth\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\DTOs\\Auth\\AuthResponseDto.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\DTOs\\Auth\\AuthResponseDto.cs",
+              "RelativeToolTip": "BussinessLogic\\DTOs\\Auth\\AuthResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:23:27.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DatabaseSettings.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Configurations\\DatabaseSettings.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\Configurations\\DatabaseSettings.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Configurations\\DatabaseSettings.cs",
+              "RelativeToolTip": "BussinessLogic\\Configurations\\DatabaseSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:23:22.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IGoogleTokenValidator.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Auth\\Helpers\\Interfaces\\IGoogleTokenValidator.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\Auth\\Helpers\\Interfaces\\IGoogleTokenValidator.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Auth\\Helpers\\Interfaces\\IGoogleTokenValidator.cs",
+              "RelativeToolTip": "BussinessLogic\\Auth\\Helpers\\Interfaces\\IGoogleTokenValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:17:51.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IAssignMissingPermissions.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Auth\\Helpers\\Interfaces\\IAssignMissingPermissions.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\Auth\\Helpers\\Interfaces\\IAssignMissingPermissions.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Auth\\Helpers\\Interfaces\\IAssignMissingPermissions.cs",
+              "RelativeToolTip": "BussinessLogic\\Auth\\Helpers\\Interfaces\\IAssignMissingPermissions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:17:49.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AssignMissingPermissions.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Auth\\Helpers\\Implementation\\AssignMissingPermissions.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\Auth\\Helpers\\Implementation\\AssignMissingPermissions.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Auth\\Helpers\\Implementation\\AssignMissingPermissions.cs",
+              "RelativeToolTip": "BussinessLogic\\Auth\\Helpers\\Implementation\\AssignMissingPermissions.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:17:14.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "GoogleTokenValidator.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Auth\\Helpers\\Implementation\\GoogleTokenValidator.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\Auth\\Helpers\\Implementation\\GoogleTokenValidator.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Auth\\Helpers\\Implementation\\GoogleTokenValidator.cs",
+              "RelativeToolTip": "BussinessLogic\\Auth\\Helpers\\Implementation\\GoogleTokenValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:17:16.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Auth\\Services\\Implementation\\AuthService.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\Auth\\Services\\Implementation\\AuthService.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Auth\\Services\\Implementation\\AuthService.cs",
+              "RelativeToolTip": "BussinessLogic\\Auth\\Services\\Implementation\\AuthService.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAYwGcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:17:54.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Auth\\Services\\Implementation\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\Auth\\Services\\Implementation\\JwtTokenService.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Auth\\Services\\Implementation\\JwtTokenService.cs",
+              "RelativeToolTip": "BussinessLogic\\Auth\\Services\\Implementation\\JwtTokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:23:12.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "RefreshTokenService.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Auth\\Services\\Implementation\\RefreshTokenService.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\Auth\\Services\\Implementation\\RefreshTokenService.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Auth\\Services\\Implementation\\RefreshTokenService.cs",
+              "RelativeToolTip": "BussinessLogic\\Auth\\Services\\Implementation\\RefreshTokenService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:23:03.458Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 217,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:14:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:12:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:13:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:10:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:25:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:26:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:31:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:32:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:33:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:35:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:36:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:38:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:39:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:40:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:42:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:15:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:24:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:28:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:22:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:13:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:17:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:15:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:9:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 114,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Class1.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\Class1.cs",
+              "ToolTip": "D:\\FPT\\NEW_SWP391\\BussinessLogic\\Class1.cs",
+              "RelativeToolTip": "BussinessLogic\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:50:42.361Z",
+              "EditorCaption": ""
             }
           ]
         }
