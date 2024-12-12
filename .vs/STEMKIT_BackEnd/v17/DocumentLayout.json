@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\git storage\\project\\swp391\\stemkit_backend\\bussinesslogic\\auth\\helpers\\implementation\\assignmissingpermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\auth\\helpers\\implementation\\assignmissingpermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\git storage\\project\\swp391\\stemkit_backend\\bussinesslogic\\auth\\helpers\\interfaces\\igoogletokenvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\auth\\helpers\\interfaces\\igoogletokenvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\git storage\\project\\swp391\\stemkit_backend\\bussinesslogic\\auth\\helpers\\interfaces\\iassignmissingpermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\auth\\helpers\\interfaces\\iassignmissingpermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\git storage\\project\\swp391\\stemkit_backend\\bussinesslogic\\auth\\helpers\\implementation\\googletokenvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\auth\\helpers\\implementation\\googletokenvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|d:\\git storage\\project\\swp391\\stemkit_backend\\bussinesslogic\\constants\\deliverystatusconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563BA6A6-CEB5-4179-94E9-0BA7705D0208}|BussinessLogic\\BussinessLogic.csproj|solutionrelative:bussinesslogic\\constants\\deliverystatusconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\AppData\\Roaming\\Microsoft\\UserSecrets\\1a8a1ab2-878e-437a-afe4-e6560c916fee\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
@@ -53,7 +73,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 623,
-          "SelectedChildIndex": 63,
+          "SelectedChildIndex": 65,
           "Children": [
             {
               "$type": "Bookmark",
@@ -304,15 +324,76 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IGoogleTokenValidator.cs",
+              "DocumentMoniker": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\BussinessLogic\\Auth\\Helpers\\Interfaces\\IGoogleTokenValidator.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\Auth\\Helpers\\Interfaces\\IGoogleTokenValidator.cs",
+              "ToolTip": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\BussinessLogic\\Auth\\Helpers\\Interfaces\\IGoogleTokenValidator.cs",
+              "RelativeToolTip": "BussinessLogic\\Auth\\Helpers\\Interfaces\\IGoogleTokenValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T16:59:25.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAssignMissingPermissions.cs",
+              "DocumentMoniker": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\BussinessLogic\\Auth\\Helpers\\Interfaces\\IAssignMissingPermissions.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\Auth\\Helpers\\Interfaces\\IAssignMissingPermissions.cs",
+              "ToolTip": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\BussinessLogic\\Auth\\Helpers\\Interfaces\\IAssignMissingPermissions.cs",
+              "RelativeToolTip": "BussinessLogic\\Auth\\Helpers\\Interfaces\\IAssignMissingPermissions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T16:59:24.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GoogleTokenValidator.cs",
+              "DocumentMoniker": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\BussinessLogic\\Auth\\Helpers\\Implementation\\GoogleTokenValidator.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\Auth\\Helpers\\Implementation\\GoogleTokenValidator.cs",
+              "ToolTip": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\BussinessLogic\\Auth\\Helpers\\Implementation\\GoogleTokenValidator.cs",
+              "RelativeToolTip": "BussinessLogic\\Auth\\Helpers\\Implementation\\GoogleTokenValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T16:59:21.14Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AssignMissingPermissions.cs",
+              "DocumentMoniker": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\BussinessLogic\\Auth\\Helpers\\Implementation\\AssignMissingPermissions.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\Auth\\Helpers\\Implementation\\AssignMissingPermissions.cs",
+              "ToolTip": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\BussinessLogic\\Auth\\Helpers\\Implementation\\AssignMissingPermissions.cs",
+              "RelativeToolTip": "BussinessLogic\\Auth\\Helpers\\Implementation\\AssignMissingPermissions.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T16:59:20.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeliveryStatusConstants.cs",
+              "DocumentMoniker": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\BussinessLogic\\Constants\\DeliveryStatusConstants.cs",
+              "RelativeDocumentMoniker": "BussinessLogic\\Constants\\DeliveryStatusConstants.cs",
+              "ToolTip": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\BussinessLogic\\Constants\\DeliveryStatusConstants.cs",
+              "RelativeToolTip": "BussinessLogic\\Constants\\DeliveryStatusConstants.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T16:58:55.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\HP\\AppData\\Roaming\\Microsoft\\UserSecrets\\1a8a1ab2-878e-437a-afe4-e6560c916fee\\secrets.json",
-              "ToolTip": "C:\\Users\\HP\\AppData\\Roaming\\Microsoft\\UserSecrets\\1a8a1ab2-878e-437a-afe4-e6560c916fee\\secrets.json*",
+              "ToolTip": "C:\\Users\\HP\\AppData\\Roaming\\Microsoft\\UserSecrets\\1a8a1ab2-878e-437a-afe4-e6560c916fee\\secrets.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-12-08T23:49:09.702Z",
@@ -320,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "QueryParameters.cs",
               "DocumentMoniker": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\BussinessLogic\\DTOs\\QueryParameters.cs",
               "RelativeDocumentMoniker": "BussinessLogic\\DTOs\\QueryParameters.cs",
@@ -328,12 +409,11 @@
               "RelativeToolTip": "BussinessLogic\\DTOs\\QueryParameters.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAwAMAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T23:45:58.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T23:45:58.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "AutoMapperProfile.cs",
               "DocumentMoniker": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\BussinessLogic\\Configurations\\MappingProfiles\\AutoMapperProfile.cs",
               "RelativeDocumentMoniker": "BussinessLogic\\Configurations\\MappingProfiles\\AutoMapperProfile.cs",
@@ -341,12 +421,11 @@
               "RelativeToolTip": "BussinessLogic\\Configurations\\MappingProfiles\\AutoMapperProfile.cs",
               "ViewState": "AQIAACUAAAAAAAAAAAAQwBEAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T23:28:47.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T23:28:47.735Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "OrderProfile.cs",
               "DocumentMoniker": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\BussinessLogic\\Configurations\\MappingProfiles\\OrderProfile.cs",
               "RelativeDocumentMoniker": "BussinessLogic\\Configurations\\MappingProfiles\\OrderProfile.cs",
@@ -354,12 +433,11 @@
               "RelativeToolTip": "BussinessLogic\\Configurations\\MappingProfiles\\OrderProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T23:28:49.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T23:28:49.877Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "DatabaseSettings.cs",
               "DocumentMoniker": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\BussinessLogic\\Configurations\\DatabaseSettings.cs",
               "RelativeDocumentMoniker": "BussinessLogic\\Configurations\\DatabaseSettings.cs",
@@ -367,12 +445,11 @@
               "RelativeToolTip": "BussinessLogic\\Configurations\\DatabaseSettings.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T23:28:23.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T23:28:23.051Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\STEMKIT_BackEnd\\Program.cs",
               "RelativeDocumentMoniker": "STEMKIT_BackEnd\\Program.cs",
@@ -380,12 +457,11 @@
               "RelativeToolTip": "STEMKIT_BackEnd\\Program.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T23:22:59.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T23:22:59.359Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\DataAccess\\AppDbContext.cs",
               "RelativeDocumentMoniker": "DataAccess\\AppDbContext.cs",
@@ -393,12 +469,11 @@
               "RelativeToolTip": "DataAccess\\AppDbContext.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAswD0AAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T23:39:15.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T23:39:15.458Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "AuthResponseDto.cs",
               "DocumentMoniker": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\BussinessLogic\\DTOs\\Auth\\AuthResponseDto.cs",
               "RelativeDocumentMoniker": "BussinessLogic\\DTOs\\Auth\\AuthResponseDto.cs",
@@ -406,12 +481,11 @@
               "RelativeToolTip": "BussinessLogic\\DTOs\\Auth\\AuthResponseDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T23:31:19.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T23:31:19.155Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "ExternalAuthDto.cs",
               "DocumentMoniker": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\BussinessLogic\\DTOs\\Auth\\ExternalAuthDto.cs",
               "RelativeDocumentMoniker": "BussinessLogic\\DTOs\\Auth\\ExternalAuthDto.cs",
@@ -419,12 +493,11 @@
               "RelativeToolTip": "BussinessLogic\\DTOs\\Auth\\ExternalAuthDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T23:31:19.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T23:31:19.967Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\BussinessLogic\\Class1.cs",
               "RelativeDocumentMoniker": "BussinessLogic\\Class1.cs",
@@ -432,12 +505,11 @@
               "RelativeToolTip": "BussinessLogic\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T08:50:42.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T08:50:42.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Git storage\\Project\\SWP391\\STEMKIT_BackEnd\\DataAccess\\Class1.cs",
               "RelativeDocumentMoniker": "DataAccess\\Class1.cs",
@@ -445,8 +517,11 @@
               "RelativeToolTip": "DataAccess\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T08:50:03.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T08:50:03.862Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         },
