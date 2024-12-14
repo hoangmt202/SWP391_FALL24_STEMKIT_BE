@@ -1,5 +1,4 @@
-﻿using DataAccess.Entities;
-using DataAccess.Repositories.Interfaces;
+﻿using DataAccess.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 

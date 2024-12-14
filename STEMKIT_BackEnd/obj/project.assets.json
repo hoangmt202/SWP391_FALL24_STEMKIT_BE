@@ -280,10 +280,10 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/8.0.5": {
+      "Microsoft.EntityFrameworkCore.Relational/8.0.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "8.0.5",
+          "Microsoft.EntityFrameworkCore": "8.0.10",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
         },
         "compile": {
@@ -297,11 +297,11 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/8.0.5": {
+      "Microsoft.EntityFrameworkCore.SqlServer/8.0.10": {
         "type": "package",
         "dependencies": {
           "Microsoft.Data.SqlClient": "5.1.5",
-          "Microsoft.EntityFrameworkCore.Relational": "8.0.5"
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.10"
         },
         "compile": {
           "lib/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
@@ -1333,7 +1333,8 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.10",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10",
+          "Microsoft.Extensions.Configuration": "8.0.0",
           "Microsoft.Extensions.Configuration.Json": "8.0.1"
         },
         "compile": {
@@ -1746,10 +1747,10 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/8.0.5": {
-      "sha512": "x2bdSK3eKKEQkDdYcGxxDU+S7NqhBiz/Fciz01Mafz9P71VRdP3JskKHaZvwK0/sNEAT3hS7BTsDQGUA2F9mAA==",
+    "Microsoft.EntityFrameworkCore.Relational/8.0.10": {
+      "sha512": "OefBEE47kGKPRPV3OT+FAW6o5BFgLk2D9EoeWVy7NbOepzUneayLQxbVE098FfedTyMwxvZQoDD9LrvZc3MadA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/8.0.5",
+      "path": "microsoft.entityframeworkcore.relational/8.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1757,14 +1758,14 @@
         "PACKAGE.md",
         "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.8.0.5.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.8.0.10.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/8.0.5": {
-      "sha512": "vBJR6QzJrZvd6oHsfMXA++v+dKYx/vhoPDgUgQZwKbcP9oYJowzoWl5JydPjlrCjwq4sxIOyqxJ7m/rSsb7zMg==",
+    "Microsoft.EntityFrameworkCore.SqlServer/8.0.10": {
+      "sha512": "DvhBEk44UjWMebFKwIFDIdEsG8gzbgflWIZljDCpIkZVpId+PKs0ufzJxnTQ94InPO+pS7+wE45cRsPRt9B0Iw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlserver/8.0.5",
+      "path": "microsoft.entityframeworkcore.sqlserver/8.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1772,7 +1773,7 @@
         "PACKAGE.md",
         "lib/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll",
         "lib/net8.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
-        "microsoft.entityframeworkcore.sqlserver.8.0.5.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlserver.8.0.10.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },

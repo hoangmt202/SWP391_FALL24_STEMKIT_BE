@@ -5,9 +5,6 @@ using BusinessLogic.Constants;
 using BusinessLogic.DTOs.Cart;
 using BusinessLogic.Services.Interfaces;
 using Microsoft.Extensions.Logging;
-using Microsoft.EntityFrameworkCore;
-using BusinessLogic.DTOs.Payment;
-using System.Net.Http;
 
 namespace BusinessLogic.Services.Implementation
 {
@@ -16,7 +13,7 @@ namespace BusinessLogic.Services.Implementation
         private readonly IUnitOfWork _unitOfWork;
         private readonly ILogger<CartService> _logger;
         private readonly IMapper _mapper;
-        
+
         public CartService(IUnitOfWork unitOfWork, ILogger<CartService> logger, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
@@ -50,7 +47,7 @@ namespace BusinessLogic.Services.Implementation
 
             // Load cart items with products
             var cartItemRepository = _unitOfWork.GetRepository<CartItem>();
-            var cartItems = await cartItemRepository.FindAsync(ci => ci.CartId == activeCart.CartId, includeProperties: "Product.Lab");
+            var cartItems = await cartItemRepository.FindAsync(ci => ci.CartId == activeCart.CartId, includeProperties: "Product");
 
             var cartItemDtos = cartItems.Select(ci => new CartItemDto
             {
@@ -59,8 +56,7 @@ namespace BusinessLogic.Services.Implementation
                 ProductName = ci.Product.ProductName,
                 Quantity = ci.Quantity,
                 Price = ci.Price,
-                TotalPrice = ci.Price * ci.Quantity,
-                LabFileUrl = ci.Product.Lab?.LabFileUrl
+                TotalPrice = ci.Price * ci.Quantity
             }).ToList();
 
             var cartDto = new CartDto
@@ -348,46 +344,120 @@ namespace BusinessLogic.Services.Implementation
             return "Cart cleared successfully.";
         }
 
-        public async Task<PaymentResult> CheckoutAsync(string userName, CheckoutDto checkoutDto)
+        public async Task<string> CheckoutAsync(string userName, CheckoutDto checkoutDto)
         {
             _logger.LogInformation("Checkout initiated for User: {UserName}", userName);
 
+            using var transaction = await _unitOfWork.BeginTransactionAsync();
+
             try
             {
-                // Validate và lấy thông tin giỏ hàng
-                var cartDetails = await ValidateAndGetCartDetails(userName);
+                var userRepository = _unitOfWork.GetRepository<User>();
+                var user = await userRepository.FindAsync(u => u.Username == userName);
+                var userEntity = user.FirstOrDefault();
 
-                // Tạo yêu cầu thanh toán qua PayOS
-                var paymentService = new PaymentService(_httpClient, _logger);
-                var paymentResult = await paymentService.CreatePaymentRequestAsync(
-                    cartDetails.TotalAmount,
-                    $"ORDER_{cartDetails.Cart.CartId}_{DateTime.UtcNow.Ticks}",
-                    $"Payment for cart {cartDetails.Cart.CartId}"
-                );
-
-                if (paymentResult.Success)
+                if (userEntity == null)
                 {
-                    // Cập nhật trạng thái giỏ hàng (optional)
-                    cartDetails.Cart.Status = CartStatusConstants.PendingPayment;
-                    _unitOfWork.GetRepository<Cart>().Update(cartDetails.Cart);
-                    await _unitOfWork.CompleteAsync();
+                    _logger.LogWarning("User {UserName} not found.", userName);
+                    throw new ArgumentException("User not found.");
                 }
 
-                return paymentResult;
+                var cartRepository = _unitOfWork.GetRepository<Cart>();
+                var cart = await cartRepository.FindAsync(c => c.UserId == userEntity.UserId && c.Status == "Active");
+                var activeCart = cart.FirstOrDefault();
+
+                if (activeCart == null)
+                {
+                    _logger.LogWarning("No active cart found for User: {UserName}", userName);
+                    throw new ArgumentException("No active cart found.");
+                }
+
+                var cartItemRepository = _unitOfWork.GetRepository<CartItem>();
+                var cartItems = await cartItemRepository.FindAsync(ci => ci.CartId == activeCart.CartId, includeProperties: "Product");
+
+                if (!cartItems.Any())
+                {
+                    _logger.LogWarning("Active cart for User: {UserName} is empty.", userName);
+                    throw new ArgumentException("Cart is empty.");
+                }
+
+                // Calculate total amount
+                decimal totalAmount = 0;
+                foreach (var cartItem in cartItems)
+                {
+                    if (cartItem.Product.StockQuantity < cartItem.Quantity)
+                    {
+                        _logger.LogWarning("Insufficient stock for ProductId: {ProductId}.", cartItem.ProductId);
+                        throw new ArgumentException($"Insufficient stock for product: {cartItem.Product.ProductName}");
+                    }
+                    totalAmount += cartItem.Price * cartItem.Quantity;
+                }
+
+
+
+                // Create Order
+                var orderRepository = _unitOfWork.GetRepository<Order>();
+                var order = new Order
+                {
+                    UserId = userEntity.UserId,
+                    OrderDate = DateOnly.FromDateTime(DateTime.UtcNow),
+                    TotalAmount = totalAmount
+                };
+                await orderRepository.AddAsync(order);
+                await _unitOfWork.CompleteAsync();
+                _logger.LogInformation("OrderId: {OrderId} created for UserId: {UserId}", order.OrderId, userEntity.UserId);
+
+                // Create OrderDetails
+                var orderDetailRepository = _unitOfWork.GetRepository<OrderDetail>();
+                foreach (var cartItem in cartItems)
+                {
+                    var orderDetail = new OrderDetail
+                    {
+                        OrderId = order.OrderId,
+                        ProductId = cartItem.ProductId,
+                        ProductDescription = cartItem.Product.Description,
+                        Quantity = cartItem.Quantity,
+                        Price = cartItem.Price
+                    };
+                    await orderDetailRepository.AddAsync(orderDetail);
+
+                    // Deduct stock
+                    cartItem.Product.StockQuantity -= cartItem.Quantity;
+                    _unitOfWork.GetRepository<Product>().Update(cartItem.Product);
+
+                    // Remove cart item
+                    cartItemRepository.Delete(cartItem);
+                }
+
+                // Create Delivery Record
+                var deliveryRepository = _unitOfWork.GetRepository<Delivery>();
+                var delivery = new Delivery
+                {
+                    OrderId = order.OrderId,
+                    DeliveryStatus = DeliveryStatusConstants.Pending, 
+                    DeliveryDate = null
+                };
+                await deliveryRepository.AddAsync(delivery);
+                _logger.LogInformation("Delivery record created for OrderId: {OrderId}", order.OrderId);
+
+                await _unitOfWork.CompleteAsync();
+
+                // Update cart status
+                activeCart.Status = CartStatusConstants.CheckedOut;
+                cartRepository.Update(activeCart);
+                await _unitOfWork.CompleteAsync();
+
+                await transaction.CommitAsync();
+
+                _logger.LogInformation("Checkout completed successfully for User: {UserName}, OrderId: {OrderId}", userName, order.OrderId);
+                return $"Checkout successful. Order ID: {order.OrderId}";
             }
             catch (Exception ex)
             {
+                await transaction.RollbackAsync();
                 _logger.LogError(ex, "Checkout failed for User: {UserName}", userName);
                 throw;
             }
-        }
-
-        // Thêm constant mới
-        public static class CartStatusConstants
-        {
-            public const string Active = "Active";
-            public const string PendingPayment = "PendingPayment";
-            public const string CheckedOut = "CheckedOut";
         }
     }
 }

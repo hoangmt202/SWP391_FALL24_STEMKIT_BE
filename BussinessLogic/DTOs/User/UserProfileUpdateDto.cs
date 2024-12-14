@@ -8,6 +8,10 @@ namespace BusinessLogic.DTOs.User
         [StringLength(100, ErrorMessage = "Full name cannot exceed 100 characters.")]
         public string FullName { get; set; }
 
+        [Required(ErrorMessage = "Username is required.")]
+        [StringLength(50, ErrorMessage = "Username cannot exceed 50 characters.")]
+        public string Username { get; set; }
+
         [Phone(ErrorMessage = "Invalid phone number format.")]
         public string Phone { get; set; }
 
