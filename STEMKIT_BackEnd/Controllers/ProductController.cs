@@ -30,29 +30,29 @@ namespace StempedeAPI.Controllers
         /// <returns>A paginated list of products.</returns>
         /// <response code="200">Returns the list of products.</response>
         /// <response code="400">If the query parameters are invalid.</response>
-        [HttpGet("get-all-pagination")]
-        [AllowAnonymous] 
-        public async Task<ActionResult<ApiResponse<PaginatedList<ReadProductDto>>>> GetAllProducts([FromQuery] QueryParameters queryParameters)
-        {
-            if (!ModelState.IsValid)
-            {
-                _logger.LogWarning("Invalid query parameters for GetAllProducts.");
-                return BadRequest(new ApiResponse<IEnumerable<string>>
-                {
-                    Success = false,
-                    Message = "Invalid query parameters.",
-                    Errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage)
-                });
-            }
+        //[HttpGet("get-all-pagination")]
+        //[AllowAnonymous] 
+        //public async Task<ActionResult<ApiResponse<PaginatedList<ReadProductDto>>>> GetAllProducts([FromQuery] QueryParameters queryParameters)
+        //{
+        //    if (!ModelState.IsValid)
+        //    {
+        //        _logger.LogWarning("Invalid query parameters for GetAllProducts.");
+        //        return BadRequest(new ApiResponse<IEnumerable<string>>
+        //        {
+        //            Success = false,
+        //            Message = "Invalid query parameters.",
+        //            Errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage)
+        //        });
+        //    }
 
-            var paginatedProducts = await _productService.GetAllProductsAsync(queryParameters);
-            return Ok(new ApiResponse<PaginatedList<ReadProductDto>>
-            {
-                Success = true,
-                Data = paginatedProducts,
-                Message = "Products retrieved successfully."
-            });
-        }
+        //    var paginatedProducts = await _productService.GetAllProductsAsync(queryParameters);
+        //    return Ok(new ApiResponse<PaginatedList<ReadProductDto>>
+        //    {
+        //        Success = true,
+        //        Data = paginatedProducts,
+        //        Message = "Products retrieved successfully."
+        //    });
+        //}
 
         /// <summary>
         /// Retrieves a specific product by ID.
