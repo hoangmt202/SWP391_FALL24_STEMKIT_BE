@@ -25,7 +25,12 @@ namespace BusinessLogic.Services.Implementation
             _unitOfWork = unitOfWork;
             _logger = logger;
         }
-
+        public async Task<IEnumerable<ReadProductDto>> GetAllProductsAsync()
+        {
+            var products = await _unitOfWork.GetRepository<Product>()
+                .GetAllAsync();
+            return _mapper.Map<IEnumerable<ReadProductDto>>(products);
+        }
         public async Task<ReadProductDto?> GetProductByIdAsync(int productId)
         {
             var product = await _unitOfWork.GetRepository<Product>().GetAsync(

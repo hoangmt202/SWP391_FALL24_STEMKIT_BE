@@ -50,6 +50,6 @@ namespace BusinessLogic.Services.Interfaces
         /// <param name="userName">The username of the authenticated user.</param>
         /// <param name="checkoutDto">The checkout details including payment and shipping information.</param>
         /// <returns>A success message indicating the order was created.</returns>
-        async Task<CartDto> ValidateAndGetCartDetails(string userName);
+        Task<string> CheckoutAsync(string userName, CheckoutDto checkoutDto);
     }
 }
