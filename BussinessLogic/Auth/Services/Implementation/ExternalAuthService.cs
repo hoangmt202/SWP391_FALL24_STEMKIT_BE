@@ -2,7 +2,7 @@
 using BusinessLogic.Auth.Services.Interfaces;
 using BusinessLogic.Auth.Helpers.Interfaces;
 using BusinessLogic.DTOs.Auth;
-using DataAccess.Data;
+using DataAccess.UnitOfWork;
 using DataAccess.Entities;
 using Microsoft.Extensions.Logging;
 

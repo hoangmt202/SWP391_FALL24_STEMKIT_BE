@@ -4,7 +4,7 @@ using BusinessLogic.DTOs.User;
 using BusinessLogic.Services.Interfaces;
 using AutoMapper.QueryableExtensions;
 using BusinessLogic.Utils.Implementation;
-using DataAccess.Data;
+using DataAccess.UnitOfWork;
 using DataAccess.Entities;
 using Microsoft.Extensions.Logging;
 using BusinessLogic.DTOs;
